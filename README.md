@@ -1,4 +1,4 @@
-```markdown
+
 # Adult Dataset Analysis
 
 Analysis and preprocessing of the **Adult (Census Income)** dataset from the UCI Machine Learning Repository.
@@ -13,7 +13,7 @@ This project includes:
 
 ## Project Structure
 
-
+```markdown
 adult_dataset/
 ├── data/
 │   └── adult.csv                 # Original dataset
@@ -26,7 +26,6 @@ adult_dataset/
 │   ├── Preprocessing.ipynb       # Data preprocessing & encoding
 │   └── association_analysis.ipynb # Association rule mining
 └── requirements.txt
-
 
 ```
 
