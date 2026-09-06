@@ -1,0 +1,149 @@
+capital-loss <= 900
+capital-gain <= 2000
+native-country = United-States
+capital-gain <= 2000 , capital-loss <= 900
+capital-loss <= 900 , native-country = United-States
+race = White
+capital-gain <= 2000 , native-country = United-States
+race = White , capital-loss <= 900
+race = White , native-country = United-States
+capital-gain <= 2000 , race = White
+capital-gain <= 2000 , capital-loss <= 900 , native-country = United-States
+income = <=50K
+race = White , capital-loss <= 900 , native-country = United-States
+capital-gain <= 2000 , race = White , capital-loss <= 900
+income = <=50K , capital-loss <= 900
+capital-gain <= 2000 , income = <=50K
+capital-gain <= 2000 , race = White , native-country = United-States
+capital-gain <= 2000 , income = <=50K , capital-loss <= 900
+workclass = Private
+capital-gain <= 2000 , race = White , capital-loss <= 900 , native-country = United-States
+income = <=50K , native-country = United-States
+sex = Male
+workclass = Private , capital-loss <= 900
+capital-loss <= 900 , income = <=50K , native-country = United-States
+capital-gain <= 2000 , income = <=50K , native-country = United-States
+capital-gain <= 2000 , workclass = Private
+race = White , income = <=50K
+sex = Male , capital-loss <= 900
+capital-gain <= 2000 , capital-loss <= 900 , income = <=50K , native-country = United-States
+workclass = Private , native-country = United-States
+capital-gain <= 2000 , workclass = Private , capital-loss <= 900
+race = White , income = <=50K , capital-loss <= 900
+21 < hours-per-week <= 40
+capital-gain <= 2000 , race = White , income = <=50K
+capital-gain <= 2000 , sex = Male
+sex = Male , native-country = United-States
+race = White , workclass = Private
+capital-gain <= 2000 , race = White , income = <=50K , capital-loss <= 900
+21 < hours-per-week <= 40 , capital-loss <= 900
+capital-loss <= 900 , workclass = Private , native-country = United-States
+race = White , sex = Male
+race = White , income = <=50K , native-country = United-States
+capital-gain <= 2000 , 21 < hours-per-week <= 40
+capital-gain <= 2000 , workclass = Private , native-country = United-States
+capital-gain <= 2000 , sex = Male , capital-loss <= 900
+race = White , workclass = Private , capital-loss <= 900
+capital-loss <= 900 , sex = Male , native-country = United-States
+race = White , capital-loss <= 900 , income = <=50K , native-country = United-States
+capital-gain <= 2000 , race = White , income = <=50K , native-country = United-States
+race = White , sex = Male , capital-loss <= 900
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , capital-loss <= 900
+capital-gain <= 2000 , race = White , workclass = Private
+8 < education-num <= 10
+capital-gain <= 2000 , workclass = Private , native-country = United-States , capital-loss <= 900
+21 < hours-per-week <= 40 , native-country = United-States
+workclass = Private , income = <=50K
+race = White , workclass = Private , native-country = United-States
+race = White , sex = Male , native-country = United-States
+capital-gain <= 2000 , sex = Male , native-country = United-States
+capital-gain <= 2000 , income = <=50K , native-country = United-States , race = White , capital-loss <= 900
+capital-gain <= 2000 , race = White , sex = Male
+workclass = Private , income = <=50K , capital-loss <= 900
+capital-gain <= 2000 , workclass = Private , income = <=50K
+capital-loss <= 900 , 8 < education-num <= 10
+capital-gain <= 2000 , race = White , workclass = Private , capital-loss <= 900
+21 < hours-per-week <= 40 , capital-loss <= 900 , native-country = United-States
+native-country = United-States , race = White , workclass = Private , capital-loss <= 900
+capital-gain <= 2000 , 8 < education-num <= 10
+native-country = United-States , race = White , sex = Male , capital-loss <= 900
+capital-gain <= 2000 , workclass = Private , income = <=50K , capital-loss <= 900
+capital-gain <= 2000 , capital-loss <= 900 , sex = Male , native-country = United-States
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , native-country = United-States
+race = White , 21 < hours-per-week <= 40
+native-country = United-States , 8 < education-num <= 10
+capital-gain <= 2000 , race = White , workclass = Private , native-country = United-States
+capital-gain <= 2000 , race = White , sex = Male , capital-loss <= 900
+21 < hours-per-week <= 40 , income = <=50K
+capital-gain <= 2000 , capital-loss <= 900 , 8 < education-num <= 10
+capital-gain <= 2000 , race = White , sex = Male , native-country = United-States
+race = White , 21 < hours-per-week <= 40 , capital-loss <= 900
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , capital-loss <= 900 , native-country = United-States
+capital-loss <= 900 , native-country = United-States , 8 < education-num <= 10
+21 < hours-per-week <= 40 , income = <=50K , capital-loss <= 900
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , income = <=50K
+workclass = Private , income = <=50K , native-country = United-States
+capital-gain <= 2000 , workclass = Private , native-country = United-States , race = White , capital-loss <= 900
+capital-gain <= 2000 , native-country = United-States , 8 < education-num <= 10
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , race = White
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , income = <=50K , capital-loss <= 900
+capital-loss <= 900 , workclass = Private , income = <=50K , native-country = United-States
+sex = Male , income = <=50K
+race = White , 8 < education-num <= 10
+race = White , 21 < hours-per-week <= 40 , native-country = United-States
+capital-gain <= 2000 , workclass = Private , income = <=50K , native-country = United-States
+marital-status = Married-civ-spouse
+capital-gain <= 2000 , native-country = United-States , sex = Male , race = White , capital-loss <= 900
+workclass = Private , sex = Male
+race = White , workclass = Private , income = <=50K
+capital-gain <= 2000 , capital-loss <= 900 , native-country = United-States , 8 < education-num <= 10
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , race = White , capital-loss <= 900
+income = <=50K , 8 < education-num <= 10
+sex = Male , income = <=50K , capital-loss <= 900
+capital-gain <= 2000 , workclass = Private , income = <=50K , native-country = United-States , capital-loss <= 900
+race = White , capital-loss <= 900 , 8 < education-num <= 10
+capital-gain <= 2000 , sex = Male , income = <=50K
+21 < hours-per-week <= 40 , workclass = Private
+race = White , workclass = Private , income = <=50K , capital-loss <= 900
+race = White , 21 < hours-per-week <= 40 , capital-loss <= 900 , native-country = United-States
+capital-gain <= 2000 , race = White , workclass = Private , income = <=50K
+21 < hours-per-week <= 40 , income = <=50K , native-country = United-States
+income = <=50K , capital-loss <= 900 , 8 < education-num <= 10
+race = White , native-country = United-States , 8 < education-num <= 10
+capital-gain <= 2000 , income = <=50K , 8 < education-num <= 10
+workclass = Private , sex = Male , capital-loss <= 900
+capital-gain <= 2000 , race = White , 8 < education-num <= 10
+capital-gain <= 2000 , sex = Male , income = <=50K , capital-loss <= 900
+capital-loss <= 900 , marital-status = Married-civ-spouse
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , race = White , native-country = United-States
+21 < hours-per-week <= 40 , workclass = Private , capital-loss <= 900
+capital-gain <= 2000 , workclass = Private , income = <=50K , race = White , capital-loss <= 900
+21 < hours-per-week <= 40 , capital-loss <= 900 , income = <=50K , native-country = United-States
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , income = <=50K , native-country = United-States
+capital-gain <= 2000 , income = <=50K , capital-loss <= 900 , 8 < education-num <= 10
+native-country = United-States , race = White , capital-loss <= 900 , 8 < education-num <= 10
+capital-gain <= 2000 , workclass = Private , sex = Male
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , workclass = Private
+capital-gain <= 2000 , race = White , capital-loss <= 900 , 8 < education-num <= 10
+income = <=50K , native-country = United-States , 8 < education-num <= 10
+race = White , workclass = Private , income = <=50K , native-country = United-States
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , income = <=50K , native-country = United-States , capital-loss <= 900
+race = White , marital-status = Married-civ-spouse
+sex = Male , income = <=50K , native-country = United-States
+native-country = United-States , marital-status = Married-civ-spouse
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , native-country = United-States , race = White , capital-loss <= 900
+capital-gain <= 2000 , race = White , native-country = United-States , 8 < education-num <= 10
+sex = Male , marital-status = Married-civ-spouse
+workclass = Private , sex = Male , native-country = United-States
+race = White , 21 < hours-per-week <= 40 , income = <=50K
+relationship = Husband
+relationship = Husband , sex = Male
+relationship = Husband , marital-status = Married-civ-spouse
+relationship = Husband , sex = Male , marital-status = Married-civ-spouse
+capital-gain <= 2000 , marital-status = Married-civ-spouse
+capital-loss <= 900 , income = <=50K , native-country = United-States , 8 < education-num <= 10
+race = White , workclass = Private , sex = Male
+capital-gain <= 2000 , 21 < hours-per-week <= 40 , workclass = Private , capital-loss <= 900
+race = White , sex = Male , income = <=50K
+capital-gain <= 2000 , income = <=50K , native-country = United-States , 8 < education-num <= 10
+workclass = Private , income = <=50K , native-country = United-States , race = White , capital-loss <= 900
